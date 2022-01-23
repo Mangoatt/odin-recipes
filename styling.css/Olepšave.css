@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+}
+
+.body {
+  background-image: url(/odin-recipes/ozadje.jpeg);
+  color: grey;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkhp {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: red;
+  border-style: solid 10px red;
+}
+.lasagnaphoto {
+  border-radius: 25px;
+  opacity: 1;
+  transition: 0.5s;
+}
+.lasagnaphoto:hover {
+  animation-delay: 1s;
+  opacity: 0.2;
+}
+.bodyglaven {
+  background-image: url(/odin-recipes/ozadje.jpeg);
+  color: grey;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Naslovnica {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 auto;
+  background-color: silver;
+
+  height: 40px;
+}
+#lasagnalink {
+  text-decoration: none;
+  text-align: center;
+  color: silver;
+  font-size: larger;
+  background-color: crimson;
+  transition: 0.5s;
+}
+#lasagnalink:hover {
+  background-color: tomato;
+}
